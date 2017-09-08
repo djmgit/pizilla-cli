@@ -20,4 +20,7 @@ For viewing a list of files currently present on pizilla use ```python pizilla -
 
 For downloading all the files use ```python pizilla -a```
 
-For downloading specific files use ```python pizilla -f [fie_name1] [file_name2] [file_name3] ...```
+For downloading specific files use ```python pizilla -f "[fie_name1] [file_name2] [file_name3] ..."```
+
+When specifying individual file names, put the list of files under **quotes** and two file names
+should be delimited by **space**
